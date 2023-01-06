@@ -52,10 +52,20 @@ html {
     padding-bottom: 30px;
 } */
 
-.box {
+.box-construcao {
     background-color: rgb(223,57,50);
     width: 440px;
     font-family: 'futura';
+}
+
+.box-contato {
+    background-color: rgb(223,57,50);
+    width: 470px;
+    font-family: 'futura';
+}
+
+.top {
+    padding-top: 70px;
 }
 
 .bottom {
@@ -149,8 +159,12 @@ html {
     .carousel-img {
         height: calc(50vh - 71px);
     }
-    .box {
+    .box-construcao {
         width: 310px;
+        font-size: 28px;
+    }
+    .box-contato {
+        width: 330px;
         font-size: 28px;
     }
 }
