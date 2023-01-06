@@ -2,6 +2,13 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'futura';
+    src: url(src/font/futura-extra-black-bt.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 .card-width {
     max-width: 18rem;
 }
@@ -22,7 +29,8 @@ html {
 }
 
 .card-border {
-    border-color: #1736a47e;
+    border-color: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card-img {
@@ -30,6 +38,33 @@ html {
     height: 200px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+}
+
+.logo-img {
+    width: 250px;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+/* .tittle-quemSomos {
+    padding-top: 15px;
+    padding-bottom: 30px;
+} */
+
+.box {
+    background-color: rgb(223,57,50);
+    width: 440px;
+    font-family: 'futura';
+}
+
+.bottom {
+    padding-bottom: 70px;
+}
+
+.underline-color {
+    text-decoration-color: rgb(223,57,50); 
+    text-underline-offset: 4px;
 }
 
 .servico-align {
@@ -63,7 +98,7 @@ html {
     width: 50px;
     height: 50px;
     background-color: #d8dbe2;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.253);
+    box-shadow: rgba(0, 0, 0, 0.308) 7px 7px 10px -2px;
     border-radius: 50%;
     display: none;
     flex-direction: row;
@@ -113,5 +148,9 @@ html {
     }
     .carousel-img {
         height: calc(50vh - 71px);
+    }
+    .box {
+        width: 310px;
+        font-size: 28px;
     }
 }
