@@ -134,6 +134,19 @@ html {
     transform: rotate(-135deg);
 }
 
+.phone-button {
+    cursor: pointer;
+    background-color: rgb(219, 203, 55);
+    box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 10px -2px;
+}
+
+.whats-button {
+    cursor: pointer;
+    background-color: rgb(25, 146, 69);
+    box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 10px -2px;
+    color: white;
+}
+
 /* modal-carousel */
 .img-size {
     height: 450px;
@@ -148,6 +161,12 @@ html {
 
 .modal-body {
     padding: 0;
+}
+
+.slice {
+    background-color: rgb(223,57,50);
+    height: 5px;
+    width: 70px;
 }
 
 /* mobile devices */
