@@ -143,11 +143,17 @@ html {
 }
  
 .insta-button {
-    background-image: linear-gradient(230deg, #D38312 0%, #A83279  61%, #D38312  100%);
-    background-size: 200% auto;
-    color: white;            
+    cursor: pointer;
+    background: linear-gradient(230deg, #D38312 0%, #A83279  61%, #D38312  100%);
+    background-size: 200% auto;            
     box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 10px -2px;
+    color: white;
   }
+
+.img-phone {
+    height: 500px;
+    width: auto;
+}
 
 /* modal-carousel */
 .img-size {
