@@ -47,6 +47,11 @@ html {
     padding-bottom: 15px;
 }
 
+.footer-logo-img {
+    width: 150px;
+    height: auto;
+}
+
 .box-construcao {
     background-color: rgb(223,57,50);
     width: 440px;
@@ -153,6 +158,10 @@ html {
 .img-phone {
     height: 500px;
     width: auto;
+}
+
+.footer-col {
+    width: 50px;
 }
 
 /* modal-carousel */
