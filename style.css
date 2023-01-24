@@ -20,12 +20,8 @@ html {
 
 .color-btn {
     background-image: linear-gradient(#1e42c4, #1735a4);
-    color: rgba(255, 255, 255, 0.582);
+    color: rgba(255, 255, 255, 0.89);
     border-color: rgba(rgba(0, 0, 0, 0));
-}
-
-.color-btn:hover {
-    color:rgba(255, 255, 255, 0.89);;
 }
 
 .card-border {
@@ -160,7 +156,7 @@ html {
 }
 
 .footer-background {
-    background-image: linear-gradient(#2a1946, #23153b);
+    background-image: linear-gradient(#3e265a, #36204e);
     color: #ffffffe3;
 }
 
@@ -194,6 +190,10 @@ li span {
 
 .footer-tittle {
     text-decoration-color: #df3932;
+}
+
+.navbar-text-color {
+    color: #d8dbe2 !important
 }
 
 /* modal-carousel */

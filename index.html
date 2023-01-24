@@ -12,9 +12,9 @@
     <title>MC Marcecar</title>
 </head>
 
-<body>
+<body onload="ano_atual()">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(#1e42c4,#1735a4);">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm " style="background-image: linear-gradient(#1e42c4,#1735a4);">
             <a class="navbar-brand"><img src="src/img/marcecar_logo2.png" height="45px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#quemSomos">Quem Somos</a>
+                        <a class="nav-link active navbar-text-color" href="#quemSomos">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços Prestados</a>
+                        <a class="nav-link active navbar-text-color" href="#servicos">Serviços Prestados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contatosPage">Contatos</a>
+                        <a class="nav-link active navbar-text-color" href="#contatosPage">Contatos</a>
                     </li>
                 </ul>
             </div>
@@ -177,8 +177,8 @@
                 <div class="col-md pb-3">
                     <p><strong><u class="underline-color">CONTATOS</u></strong></p>
                     <ul class="footer-list-no-bullet">
-                        <li><i class="fas fa-phone pr-3"></i><span>(51) 99979-3479</span></li>
-                        <li><i class="fas fa-envelope pr-3"></i><span>mcmarcecar@hotmail.com</span></li>
+                        <li><i class="fas fa-phone pr-2"></i><span>(51) 99979-3479</span></li>
+                        <li><i class="fas fa-envelope pr-2"></i><span>mcmarcecar@hotmail.com</span></li>
                     </ul>
                 </div>
                 <div class="col-md pb-3">
@@ -191,7 +191,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-center copy-right pb-3">&copy; 2023 - MC Marcecar. - Todos os Direitos Reservados.</div>
+        <div id="copyright" class="text-center copy-right pb-3"></div>
     </footer>
 
     <!-- modal pergolado -->
