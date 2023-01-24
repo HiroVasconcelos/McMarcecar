@@ -47,19 +47,14 @@ html {
     padding-bottom: 15px;
 }
 
-.footer-logo-img {
-    width: 150px;
-    height: auto;
-}
-
 .box-construcao {
-    background-color: rgb(223,57,50);
+    background-color: #df3932;
     width: 440px;
     font-family: 'futura';
 }
 
 .box-contato {
-    background-color: rgb(223,57,50);
+    background-color: #df3932;
     width: 470px;
     font-family: 'futura';
 }
@@ -73,7 +68,7 @@ html {
 }
 
 .underline-color {
-    text-decoration-color: rgb(223,57,50); 
+    text-decoration-color: #df3932; 
     text-underline-offset: 4px;
 }
 
@@ -98,7 +93,7 @@ html {
 }
 
 .text-color {
-    color:rgba(255, 255, 255, 0.89);
+    color:#ffffffe3;
 }
 
 #buttonTop {
@@ -136,15 +131,15 @@ html {
 
 .phone-button {
     cursor: pointer;
-    background-color: rgb(219, 203, 55);
+    background-color: #dbcb37;
     box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 10px -2px;
 }
 
 .whats-button {
     cursor: pointer;
-    background-color: rgb(25, 146, 69);
+    background-color: #199245;
     box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 10px -2px;
-    color: white;
+    color: #ffffff;
 }
  
 .insta-button {
@@ -152,7 +147,7 @@ html {
     background: linear-gradient(230deg, #D38312 0%, #A83279  61%, #D38312  100%);
     background-size: 200% auto;            
     box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 10px -2px;
-    color: white;
+    color: #ffffff;
   }
 
 .img-phone {
@@ -162,6 +157,43 @@ html {
 
 .footer-col {
     width: 50px;
+}
+
+.footer-background {
+    background-image: linear-gradient(#2a1946, #23153b);
+    color: #ffffffe3;
+}
+
+.footer-list-no-bullet {
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+.footer-list-with-bullet {
+    padding-left: 20px;
+}
+
+.footer-logo-img {
+    width: 200px;
+    height: auto;
+    margin-left: -8px;
+}
+
+li {
+    color: #df3932;
+}
+
+li span {
+    color: #ffffff;
+}
+
+.copy-right {
+    color:#ffffff4d;
+    font-size: x-small;
+}
+
+.footer-tittle {
+    text-decoration-color: #df3932;
 }
 
 /* modal-carousel */
@@ -181,7 +213,7 @@ html {
 }
 
 .slice {
-    background-color: rgb(223,57,50);
+    background-color: #df3932;
     height: 5px;
     width: 70px;
 }
