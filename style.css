@@ -47,12 +47,21 @@ html {
     background-color: #df3932;
     width: 440px;
     font-family: 'futura';
+    color: white;
 }
 
 .box-contato {
     background-color: #df3932;
     width: 470px;
     font-family: 'futura';
+    color: white;
+}
+
+.box-servicos {
+    background-color: #df3932;
+    width: 500px;
+    font-family: 'futura';
+    color: white;
 }
 
 .top {
@@ -149,6 +158,7 @@ html {
 .img-phone {
     height: 500px;
     width: auto;
+    margin: 0;
 }
 
 .footer-col {
@@ -174,6 +184,9 @@ html {
     height: auto;
     margin-left: -8px;
 }
+a:link {
+    text-decoration: none;
+}
 
 li {
     color: #df3932;
@@ -193,7 +206,7 @@ li span {
 }
 
 .navbar-text-color {
-    color: #d8dbe2 !important
+    color: #d8dbe2 !important;
 }
 
 /* modal-carousel */
@@ -234,5 +247,9 @@ li span {
     .box-contato {
         width: 330px;
         font-size: 28px;
+    }
+    .box-servicos {
+        width: 330px;
+        font-size: 26px;
     }
 }
