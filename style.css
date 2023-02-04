@@ -134,6 +134,10 @@ html {
     transform: rotate(-135deg);
 }
 
+.phone-contact-buttons {
+    margin: 0 20px;
+}
+
 .phone-button {
     cursor: pointer;
     background-color: #dbcb37;
