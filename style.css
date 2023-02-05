@@ -219,6 +219,7 @@ li span {
     width: 800px;
     background-size: cover;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .modal-content {
@@ -238,8 +239,8 @@ li span {
 /* mobile devices */
 @media (max-width: 800px) {
     .img-size {
-        height: 225px;
-        width: 400px;
+        height: 300px; 
+        width: 350px;
     }
     .carousel-img {
         height: calc(50vh - 71px);
