@@ -245,6 +245,9 @@ li span {
     .carousel-img {
         height: calc(50vh - 71px);
     }
+    .card-width {
+        max-width: 350px;
+    }
     .box-construcao {
         width: 310px;
         font-size: 28px;
