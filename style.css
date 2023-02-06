@@ -242,11 +242,18 @@ li span {
         height: 300px; 
         width: 350px;
     }
+    .modal-body {
+        width: 350px;
+    }
+    .modal-footer {
+        width: 350px;
+    }
+    .modal-content {
+        width: 350px;
+        margin: 0 auto;
+    }
     .carousel-img {
         height: calc(50vh - 71px);
-    }
-    .card-width {
-        max-width: 350px;
     }
     .box-construcao {
         width: 310px;
